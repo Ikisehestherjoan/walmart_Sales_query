@@ -13,7 +13,7 @@ The dataset was obtained from the Kaggle Walmart Sales Forecasting Competition. 
 
   Column	                          Description                            Data Type
   
-------------------------- | --------------------------------------------| ------------ 
+------------------------- | ------------------------------------------| ------------ 
 
 invoice_id                |Invoice of the sales made	                  | VARCHAR(30)
 
@@ -138,7 +138,7 @@ $ total = VAT + COGS\= 16.0265 + 320.53 =
 $ \text{Gross Margin Percentage} = \frac{\text{gross income}}{\text{total revenue}}\=\frac{16.0265}{336.5565} = 0.047619\\approx 4.7619% $
 
 Code
-For the rest of the code, check the SQL_queries.sql file
+For the rest of the code, check the walmartquery.sql file
 
 -- CREATING A DATABASE
 CREATE DATABASE IF NOT EXISTS  walmartdb;
